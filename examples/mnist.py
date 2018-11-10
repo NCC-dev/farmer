@@ -9,4 +9,4 @@ x_train = np.expand_dims(x_train, axis=3)
 x_test = np.expand_dims(x_test, axis=3)
 
 # fit farmer classification
-classifier.fit_from_array(x_train, y_train)
+classifier.fit_from_array(x_train, y_train, x_test, y_test)
